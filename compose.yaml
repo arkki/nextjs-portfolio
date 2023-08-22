@@ -1,0 +1,8 @@
+services:
+  frontend:
+    # build:
+    #   context: .
+    image: olliniinioja
+    container_name: olliniinioja.com
+    ports:
+      - "80:3000"
